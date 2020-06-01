@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.box{
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+}
+.heading{
+    width: 200px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    text-align: center;
+    float: right;
+    padding: 5px;
+}
+#head1{
+    color: white;
+    background-color: brown;
+}
+#head2{
+    background-color: cadetblue;
+}
+#head3{
+    background-color: chartreuse;
+}
+p{
+    clear: both;
+    padding: 20px;
+}
+
+@media (min-width: 992px){
+.col-lg-4{
+    width: 33%;
+    float: left;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6{
+    width: 50%;
+    float: left;
+}  
+.col-md-12{
+    width: 100%;
+    float: left;
+}    
